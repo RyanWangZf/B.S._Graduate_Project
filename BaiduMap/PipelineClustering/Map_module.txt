@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=yIOaTCQFPQzKBjO4et2c3ySE26ei2CQT"></script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+		#l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+		#r-result{height:100%;width:20%;float:left;}
+	</style>
+	<title>__VARTITLE</title>
+</head>
+<body>
+	<div id="allmap"></div>
+</body>
+</html>
+<script>
+__VARPOINTS
+</script>
+<script type="text/javascript">
+	// 百度地图API功能
+  	var opts = {
+				width : 250,     // 信息窗口宽度
+				height: 150,     // 信息窗口高度
+				title : "项目信息" , // 信息窗口标题
+				enableMessage:true //设置允许信息窗发送短息
+			   };
+	var map = new BMap.Map("allmap");
+	var point = new BMap.Point(120.698484, 31.352795); // 设置苏州为中心点
+	map.centerAndZoom(point, 15);
+  	map.enableScrollWheelZoom(); // 允许滚轮缩放
+	for (var i = 0; i < points.length; i ++) {
+		if (points[i].lng != "404"){
+			var icon = new BMap.Icon(points[i].label_ + ".png",new BMap.Size(10,10),{anchor: new BMap.Size(7,10)});
+			
+			var pt = new BMap.Point(points[i].lng_,points[i].lat_);  // 创建点坐标
+			
+			var marker = new BMap.Marker(pt,{icon:icon});  // 创建标注
+			
+			var content = '管道编号: '+ points[i].title_;
+			
+			map.addOverlay(marker);
+			addClickHandler(content,marker);
+			}
+	}
+  	function addClickHandler(content,marker){
+		marker.addEventListener("click",function(e){
+			openInfo(content,e)}
+		);
+	}
+	function openInfo(content,e){
+		var p = e.target;
+		var point = new BMap.Point(p.getPosition().lng,
+                                   p.getPosition().lat);
+		var infoWindow = new BMap.InfoWindow(content,opts);  // 创建信息窗口对象 
+		map.openInfoWindow(infoWindow,point); //开启信息窗口
+	}
+</script>
