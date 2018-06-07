@@ -5,4 +5,5 @@ Show geographical distribution of gas pipelines failure reports on HTML baidumap
 展示管道的聚类结果  
 Show clustering results, paint its geographical distribution on HTML baidumap.  
 # PressureDetection  
-Show pressure detections points' geographical distribution on HTML baidumap.    
+展示压力测点的地理位置分布  
+Show pressure detections monitors' geographical distribution on HTML baidumap.    
