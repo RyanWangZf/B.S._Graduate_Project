@@ -1,6 +1,8 @@
 # pre_processing.py  
-µÃµ½ÇåÏ´ºÃµÄgasline_attr.csvºÍgasline_clustering.csv  
-ÆäÖĞgasline_clusteringÊÇÓÃ×÷¾ÛÀàÌØÕ÷ÊäÈëµÄÎÄ¼ş  
+å¾—åˆ°æ¸…æ´—å¥½çš„gasline_attr.csvå’Œgasline_clustering.csv  
+å…¶ä¸­gasline_clusteringæ˜¯ç”¨ä½œèšç±»ç‰¹å¾è¾“å…¥çš„æ–‡ä»¶  
+Do data cleaning, save processed data in file gasline_attr.csv and gasline_clustering.csv.
 
 # clustering.py  
-ÓÃÓÚ¾ÛÀàÓëÕ¹Ê¾,¾ßÌåÓÃ·¨¼ûclustering.pyÕıÎÄÄÚÈİ¡£
+ç”¨äºèšç±»ä¸å±•ç¤º,å…·ä½“ç”¨æ³•è§clustering.pyæ­£æ–‡å†…å®¹ã€‚  
+Do clustering on dataset gasline_clustering.csv, read codes in clustering.py for details.  
