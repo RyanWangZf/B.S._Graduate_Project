@@ -8,8 +8,7 @@ This paper also built two-layered clustering model on time series, which were co
 gas pipeline, risk evaluation, web crawler, unsupervised clustering, anomaly detection  
   
 ## P.S.  
-<<<<<<< HEAD
-Please read Paper.pdf for details.  
+<<<<<<<Please read Paper.pdf for details.  
 
 # Files Description:  
 ## BaiduMap:  
@@ -23,7 +22,6 @@ nearest monitor with 10 typical series, making sure 2 of 10 as the risky series.
 and failure series.    
 
 =======
-Please read Paper.pdf for details.
->>>>>>> 46cd95926041473e7749ab19abee2d590c28a8cc
+Please read Paper.pdf for details.  
 
 
