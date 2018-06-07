@@ -1,4 +1,4 @@
-﻿<<<<<<< HEAD
+  
 ## pre_processing.py  
 得到清洗好的gasline_attr.csv和gasline_clustering.csv  
 其中gasline_clustering是用作聚类特征输入的文件  
