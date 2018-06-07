@@ -1,20 +1,10 @@
-<<<<<<< HEAD
+ï»¿<<<<<<< HEAD
 ## pre_processing.py  
-µÃµ½ÇåÏ´ºÃµÄgasline_attr.csvºÍgasline_clustering.csv  
-ÆäÖĞgasline_clusteringÊÇÓÃ×÷¾ÛÀàÌØÕ÷ÊäÈëµÄÎÄ¼ş  
-
-## clustering.py  
-ÓÃÓÚ¾ÛÀàÓëÕ¹Ê¾,¾ßÌåÓÃ·¨¼ûclustering.pyÕıÎÄÄÚÈİ  
-
-## gasline_report_stats.py  
-ÓÃÓÚÆ¥Åä¹ÜµÀ²»Í¬¾ÛÀà´ØËù·¢ÉúµÄÊÂ¹ÊÊıÁ¿£¬Õ¹Ê¾²»Í¬¹ÜµÀ´ØµÄ·çÏÕ²îÒì
-=======
-# pre_processing.py  
 å¾—åˆ°æ¸…æ´—å¥½çš„gasline_attr.csvå’Œgasline_clustering.csv  
 å…¶ä¸­gasline_clusteringæ˜¯ç”¨ä½œèšç±»ç‰¹å¾è¾“å…¥çš„æ–‡ä»¶  
-Do data cleaning, save processed data in file gasline_attr.csv and gasline_clustering.csv.
 
-# clustering.py  
-ç”¨äºèšç±»ä¸å±•ç¤º,å…·ä½“ç”¨æ³•è§clustering.pyæ­£æ–‡å†…å®¹ã€‚  
-Do clustering on dataset gasline_clustering.csv, read codes in clustering.py for details.  
->>>>>>> 46cd95926041473e7749ab19abee2d590c28a8cc
+## clustering.py  
+ç”¨äºèšç±»ä¸å±•ç¤º,å…·ä½“ç”¨æ³•è§clustering.pyæ­£æ–‡å†…å®¹  
+
+## gasline_report_stats.py  
+ç”¨äºåŒ¹é…ç®¡é“ä¸åŒèšç±»ç°‡æ‰€å‘ç”Ÿçš„äº‹æ•…æ•°é‡ï¼Œå±•ç¤ºä¸åŒç®¡é“ç°‡çš„é£é™©å·®å¼‚  
