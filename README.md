@@ -1,4 +1,4 @@
-# Risk Evaluation of Gas Pipeline based on Unstructured Multi-source Data  
+# Savety Evaluation of Gas Pipeline based on Unstructured Multi-source Data  
 
 ## ABSTRACT:  
 In the circumstance of the lack of domestic urban gas pipeline accident report database, this paper constructed a gas pipeline accident data system which consists of three main components including web crawler of accident reports, statistical analysis on failure inductions and results graphical display. It fills the void and is a constructive attempt.  
